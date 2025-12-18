@@ -28,3 +28,11 @@ console.log([...obj.keys()])  // [key1, key2]
 console.log([...obj.values()])  // [value1, value2]
 console.log([...obj.entries()])  // [[key1, value1], [key2, value2]]
 ```
+
+* Iterating in map can done as below
+
+```javascript
+for (let [key, value] of freqMap) {
+  console.log(value, key)  // prints key and value
+}
+```
